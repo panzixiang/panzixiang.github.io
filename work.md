@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Work
-permalink: /about/
+permalink: /work/
 ---
 
 ### Senior ML Engineer at Curai Health
