@@ -10,6 +10,8 @@ Word Representations suffer from the inherent **Curse of Dimensionality** due to
 
 The idea is very simple — make a word vector representation, say in the form of multiple One-Hot vectors. Then deploy a Dimensionality Reduction algorithm such as Matrix Factorization using Singular Value Decomposition (SVD) to arrive at meaningful conclusions.
 
+<!--more-->
+
 ### Co-occurrence aka Count based Methods:
 
 A few of the co-occurrence or count based methods of generating Word Vectors are:

@@ -10,6 +10,8 @@ The Transformer – a model that uses attention to boost the speed with which th
 
 Encoding component, a decoding component, and connections between them. The encoding component is a stack of encoders, each encoder is a  self-attention layer (a layer that helps the encoder look at other words in the input sentence as it encodes a specific word) + feed-forward layer. 
 
+<!--more-->
+
 ### Self-attention
 
 As the model processes each word (each position in the input sequence), self attention allows it to look at other positions in the input sequence for clues that can help lead to a better encoding for this word. Self-attention is the method the Transformer uses to bake the “understanding” of other relevant words into the one we’re currently processing.

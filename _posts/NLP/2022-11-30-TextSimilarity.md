@@ -13,6 +13,8 @@ Since differences in word order often go hand in hand with differences in meanin
 ## Big idea
 The big idea is that you **represent documents as vectors of features**, and compare documents by measuring the distance between these features. 
 
+<!--more-->
+
 ### Embeddings + similarity
 
 List of embeddings
