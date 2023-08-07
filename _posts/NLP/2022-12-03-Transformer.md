@@ -4,8 +4,6 @@ title: Transformer
 category: nlp
 ---
 
-# Transformer
-
 The Transformer – a model that uses attention to boost the speed with which these models can be trained. The biggest benefit, comes from how The **Transformer lends itself to parallelization**.
 
 Encoding component, a decoding component, and connections between them. The encoding component is a stack of encoders, each encoder is a  self-attention layer (a layer that helps the encoder look at other words in the input sentence as it encodes a specific word) + feed-forward layer. 

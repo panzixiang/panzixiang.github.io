@@ -4,8 +4,6 @@ title: Text Similarity
 category: nlp
 ---
 
-# Text similarity
-
 Text similarity has to determine how ‘close’ two pieces of text are both in surface closeness **lexical similarity** and meaning **semantic similarity**.
 
 Since differences in word order often go hand in hand with differences in meaning (compare the ``dog bites the man`` with ``the man bites the dog``), we'd like our sentence embeddings to be sensitive to this variation.
