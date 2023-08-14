@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hi I'm Sean! This is a blog for personal projects and other doodles. I'm a graduate of Princeton University (go Tigers!) class of 2016 majoring in mathematics. I have since completed a MS in Computer science and Engineering from University of Washington (go Huskies!). I am interested in natural language processing and computational linguistics and their roles in artificial intelligence and human-computer interaction.
+Hi I'm Sean! This is a blog for personal projects and other doodles. I'm a graduate of Princeton University (go Tigers!) class of 2016 majoring in mathematics. I have since completed a MS in Computer Science and Engineering from University of Washington (go Huskies!). I am interested in natural language processing and computational linguistics and their roles in artificial intelligence and human-computer interaction.
 
 I take photographs [here](https://www.panzixiang.com/)
 
