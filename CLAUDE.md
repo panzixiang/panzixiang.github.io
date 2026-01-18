@@ -31,7 +31,7 @@ Posts are organized by category with case-sensitive filtering:
 | Projects | `_posts/Projects/` | `/` (homepage) | `post.category != 'Blog'` |
 | Blog | `_posts/Blog/` | `/Blog` | `post.category == 'Blog'` |
 | NLP | `_posts/NLP/` | `/NLP` | `post.category == 'nlp'` (lowercase!) |
-| AI | `_posts/AI/` | TBD | New category |
+| AI | `_posts/AI/` | `/AI` | `post.category == 'AI'` |
 
 **Important:** The NLP category uses lowercase `nlp` in front matter despite the uppercase directory name.
 
@@ -47,7 +47,7 @@ Required front matter:
 ---
 layout: post
 title: Article Title
-category: nlp  # Use: Blog, nlp, Projects, or AI
+category: AI  # Use: Blog, nlp, Projects, or AI
 ---
 ```
 
@@ -61,7 +61,7 @@ Three layouts in `_layouts/`:
 - **post.html** - Blog posts (extends default, adds date and Disqus)
 - **page.html** - Static pages (extends default, no date/comments)
 
-Navigation order: Projects | Blog | NLP Notes | About | Work
+Navigation order: Projects | Blog | NLP Notes | AI | About | Work
 
 ## Styling
 
