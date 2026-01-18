@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo:*)",
+      "Bash(where.exe:*)",
+      "Bash(powershell.exe -Command \"echo $env:PATH\")",
+      "Bash(powershell.exe:*)"
+    ]
+  }
+}
