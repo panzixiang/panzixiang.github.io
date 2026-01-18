@@ -4,7 +4,10 @@
       "Bash(echo:*)",
       "Bash(where.exe:*)",
       "Bash(powershell.exe -Command \"echo $env:PATH\")",
-      "Bash(powershell.exe:*)"
+      "Bash(powershell.exe:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd AI category to blog\n\n- Create AI.html category page with post filtering\n- Add AI navigation link to site header\n- Update CLAUDE.md documentation with AI category details\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)"
     ]
   }
 }
