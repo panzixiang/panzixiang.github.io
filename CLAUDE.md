@@ -82,3 +82,70 @@ Key settings in `_config.yml`:
 - Markdown: GitHub Flavored Markdown (kramdown)
 - Syntax highlighting: Rouge
 - Plugins: jekyll-sitemap, jekyll-feed
+
+## Monthly AI Landscape Post
+
+Create a monthly "AI Landscape" post summarizing developments from the previous month. When the user requests this (e.g., "Write the AI Landscape post for February 2026"), follow these instructions:
+
+### File Setup
+
+- **Filename**: `_posts/AI/YYYY-MM-DD-AI-Landscape-Month-YYYY.md`
+- **Date**: Use the current date or end of month
+- **Example**: `2026-02-28-AI-Landscape-February-2026.md`
+
+### Front Matter
+
+```yaml
+---
+layout: post
+title: AI Landscape - [Month] [Year]
+category: AI
+---
+```
+
+### Content Structure
+
+Research and write about developments from the **previous month** in these sections:
+
+1. **Claude Model Updates** - New Claude models, capabilities, pricing changes
+2. **Claude Code Updates** - New features, improvements, milestones
+3. **Claude API & Platform Updates** - API features, MCP updates, SDK changes
+4. **Agentic AI Frameworks** - Popular frameworks (LangGraph, CrewAI, MetaGPT, etc.)
+5. **Financial AI & LLM Projects** - Finance-focused AI tools and repos
+6. **Developer Tools & Infrastructure** - LLM gateways, MCP servers, dev tools
+7. **Industry Partnerships** - Major AI partnerships and announcements
+
+### Research Process
+
+1. Use WebSearch to find recent announcements and updates
+2. Use WebFetch to verify all GitHub links are working
+3. Include star counts for GitHub repos where available
+4. Each entry should have 2-4 sentences of description
+5. All links must be verified working before publishing
+
+### Example Entry Format
+
+```markdown
+### [Project Name] ([star count] stars)
+
+[2-4 sentence description of what it does, key features, and why it matters.]
+
+[Link Text](https://verified-url.com)
+```
+
+### Footer
+
+End each post with:
+
+```markdown
+---
+
+Last updated: [Month] [Day], [Year]
+```
+
+### After Writing
+
+1. Verify all hyperlinks work
+2. Run markdownlint checks
+3. Commit with message: "Add AI Landscape [Month] [Year] blog post"
+4. Push to master
