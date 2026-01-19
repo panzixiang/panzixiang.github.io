@@ -89,9 +89,9 @@ Create a monthly "AI Landscape" post summarizing developments from the previous 
 
 ### File Setup
 
-- **Filename**: `_posts/AI/YYYY-MM-DD-AI-Landscape-Month-YYYY.md`
+- **Filename**: `_posts/AI/YYYY-MM-DD-claude{MM}{YY}.md`
 - **Date**: Use the current date or end of month
-- **Example**: `2026-02-28-AI-Landscape-February-2026.md`
+- **Example**: `2026-02-28-claude0226.md` (for February 2026)
 
 ### Front Matter
 
