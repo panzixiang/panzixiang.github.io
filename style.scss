@@ -79,10 +79,10 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:link {
-    color: inherit;
+    color: #82aaff;
   }
   &:visited {
-    color: inherit;
+    color: #82aaff;
   }
   &:hover, &:active {
     color: $blue;
